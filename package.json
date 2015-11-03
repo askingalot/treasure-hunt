@@ -1,0 +1,11 @@
+{
+  "name": "treasure-hunt",
+  "version": "0.1.0",
+  "description": "A simple command line game to help practice programming",
+  "main": "treasure-hunter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Collins",
+  "license": "MIT"
+}
