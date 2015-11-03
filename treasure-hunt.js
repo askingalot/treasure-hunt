@@ -1,5 +1,4 @@
 var game = require('./lib/game'),
-    character = require('./lib/character'),
     actions = require('./lib/actions'),
     utils = require('./lib/utils');
 
