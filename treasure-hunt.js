@@ -5,9 +5,15 @@ var game = require('./lib/game'),
 
 var gameState = game.initialGameState();
 
-setInterval(function() {
+var quitGameToken = setInterval(function() {
   gameState = executeFrame(gameState);
-}, 1000);
+
+  if (game.isGameOver(gameState)) {
+    console.log('YOU FOUND THE TREASURE!!!');
+    clearInterval(quitGameToken);
+  }
+
+}, 500);
 
 function executeFrame(state) {
   var actionType = utils.getRandomPropertyValue(actions.types),
