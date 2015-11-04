@@ -3,6 +3,7 @@ var game = require('./lib/game'),
     constants = require('./lib/constants'),
     utils = require('./lib/utils');
 
+game.clearScreen();
 var gameState = game.initialGameState();
 
 var quitGameToken = setInterval(function() {
