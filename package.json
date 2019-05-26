@@ -9,6 +9,7 @@
   "author": "Andy Collins",
   "license": "MIT",
   "dependencies": {
+    "lodash": "latest",
     "chalk": "^1.1.1"
   }
 }
